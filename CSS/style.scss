@@ -36,4 +36,72 @@ nav{
 
 .testimonials{
     padding-bottom: 50px;
+    @keyframes slide {
+        from {
+          transform: translateX(0);
+        }
+    
+        to {
+          transform: translateX(-100%);
+        }
+      }
+    
+      .logos {
+        overflow: hidden;
+        padding-bottom: 20px;
+        white-space: nowrap;
+        position: relative;
+      }
+    
+    
+      .logos-slide {
+        display: inline-block;
+        animation: 25s slide infinite linear;
+      }
+    
+      .logos-slide img {
+        margin: 0 40px;
+        width: 115px;
+    
+        @media (max-width:991px) {
+          margin: 0 10px;
+        }
+      }
+    
+      @keyframes slides {
+        from {
+          transform: translateX(-100%);
+        }
+    
+        to {
+          transform: translateX(-0%);
+        }
+      }
+    
+      .logoss {
+        overflow: hidden;
+        padding: 10px 0;
+        white-space: nowrap;
+        position: relative;
+      }
+    
+    
+      .logos-slides {
+        display: inline-block;
+        animation: 25s slides infinite linear;
+      }
+    
+      .logos-slides img {
+        margin: 0 40px;
+        width: 115px;
+        filter: grayscale(100%);
+    
+        @media (max-width:991px) {
+          margin: 0 10px;
+        }
+    
+        &:hover {
+          filter: grayscale(0%);
+        }
+      }
 }
