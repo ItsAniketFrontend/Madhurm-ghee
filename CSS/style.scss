@@ -1,108 +1,242 @@
 *{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-    font-family: "Montserrat", sans-serif;
+@font-face {
+  font-family: "Circular Std Medium";
+  src: url(../Fonts/circular-std-medium-500.ttf);
 }
 
-a{
-    font-family: "Montserrat", sans-serif;
-}
-
-p{
-    font-family: "Poppins", sans-serif;
+body{
+  background: #FFEA9E !important;
 }
 
 nav{
-    a{
-        font-size: 16px;
-        font-weight: 600 !important;
-        color: #000;
-        text-transform: uppercase;
-    }
+  background-color: #fff !important;
+  .nav-link{
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Circular Std Medium";
+  }
 }
 
 .about{
-    padding: 50px 0px;
-    overflow: hidden;
+  overflow: hidden;
+  padding: 90px 0px;
+  h2{
+    font-family: "Circular Std Medium";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69px;
+    color: #000;
+    padding-bottom: 20px;
+  }
+  p{
+    font-family: "Circular Std Medium";
+    line-height: 34px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+  }
+  .vector{
+    width: 300px;
+
+  }
 }
 
-.testimonials{
-    padding-bottom: 50px;
-    @keyframes slide {
-        from {
-          transform: translateX(0);
-        }
+.products{
+  padding-bottom: 80px;
+  h2{
+    font-family: "Circular Std Medium";
+    line-height: 69px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+  }
+  .product{
+    width: 500px;
+    height: 500px;
+    border: 4px dotted #fff;
+    object-fit: contain;
+  }
+  .vector{
+    width: 300px;
+
+  }
+  h4{
+    font-family: "Circular Std Medium";
+    line-height: 69px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+  }
+  .box{
+    padding: 20px 0px;
+    box-shadow: rgba(90, 90, 95, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+.brand{
+  h2{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 69px;
+    color: #000;
+    font-family: "Circular Std Medium";
+  }
+  .vector{
+    width: 300px;
+  }
+  h3{
+    font-family: "Circular Std Medium";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 23px;
+    background-color: #342205;
+   display: inline-block;
+    padding: 18px;
+    color: #fff;
+  }
+  h6{
+    font-size: 16px;
+    line-height: 34px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-family: "Circular Std Medium";
+  }
+  p{
+    margin: 0px;
+    padding: 20px 0px;
+     font-size: 16px;
+     line-height: 34px;
+     font-style: normal;
+     font-weight: 400;
+     color: #000;
+     font-family: "Circular Std Medium"; 
+  }
+}
+
+.ambassdor{
+  padding: 80px 0px;
+  .vector{
+    width: 300px;
     
-        to {
-          transform: translateX(-100%);
-        }
-      }
-    
-      .logos {
-        overflow: hidden;
-        padding-bottom: 20px;
-        white-space: nowrap;
-        position: relative;
-      }
-    
-    
-      .logos-slide {
-        display: inline-block;
-        animation: 25s slide infinite linear;
-      }
-    
-      .logos-slide img {
-        margin: 0 40px;
-        width: 115px;
-    
-        @media (max-width:991px) {
-          margin: 0 10px;
-        }
-      }
-    
-      @keyframes slides {
-        from {
-          transform: translateX(-100%);
-        }
-    
-        to {
-          transform: translateX(-0%);
-        }
-      }
-    
-      .logoss {
-        overflow: hidden;
-        padding: 10px 0;
-        white-space: nowrap;
-        position: relative;
-      }
-    
-    
-      .logos-slides {
-        display: inline-block;
-        animation: 25s slides infinite linear;
-      }
-    
-      .logos-slides img {
-        margin: 0 40px;
-        width: 115px;
-        filter: grayscale(100%);
-    
-        @media (max-width:991px) {
-          margin: 0 10px;
-        }
-    
-        &:hover {
-          filter: grayscale(0%);
-        }
-      }
+  }
+  h1{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69px;
+    color: #000;
+    font-family: "Circular Std Medium"; 
+  }
+  .box{
+    background-color: #fff;
+    padding: 20px;
+  }
+  img{
+    width: 100%;
+  }
+  h3{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 69px;
+    color: #000;
+    font-family: "Circular Std Medium"; 
+  }
+  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #000;
+    font-family: "Circular Std Medium"; 
+    font-style: normal;
+    margin: 0px;
+  }
+}
+
+.bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(../Images/bg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  button{
+    background: #C2531B;
+    padding: 5px 20px;
+    border: none;
+    a{
+      color: #fff;
+      font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: "Circular Std Medium"; 
+    font-style: normal;
+    margin: 0px;
+    text-decoration: none;
+    }
+  }
+  p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #fff;
+    font-family: "Circular Std Medium"; 
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.reviews{
+  padding: 80px 0px;
+  h2{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #000;
+    font-family: "Circular Std Medium"; 
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+  .box{
+    background-color: #F6F0E0;
+    padding: 20px;
+    height: 100%;
+    p{
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 34px;
+      color: #000;
+      font-family: "Circular Std Medium"; 
+      font-style: normal;
+      margin: 0px;
+      padding-bottom: 20px;
+    }
+    h5{
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 34px;
+      color: #000;
+      font-family: "Circular Std Medium"; 
+      font-style: normal;
+      margin: 0px;
+    }
+  }
 }
