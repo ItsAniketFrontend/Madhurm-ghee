@@ -290,4 +290,30 @@ nav .nav-link {
 }
 .gallery img {
   mix-blend-mode: multiply;
+}
+
+.foot {
+  padding: 5px 0px;
+}
+.foot p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Circular Std Medium";
+  font-style: normal;
+  margin: 0px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.foot li {
+  list-style: none;
+}
+.foot a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Circular Std Medium";
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
