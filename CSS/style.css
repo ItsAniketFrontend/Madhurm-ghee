@@ -293,18 +293,25 @@ nav .nav-link {
 }
 
 .foot {
-  padding: 5px 0px;
+  padding: 50px 0px;
+  background-color: #342205;
+  box-shadow: 0px 1px 25px rgba(25, 119, 204, 0.1);
+}
+.foot .img-box {
+  background-color: #fff;
+  border-radius: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
 }
 .foot p {
   font-size: 16px;
   font-weight: 400;
-  color: #000;
+  color: #fff !important;
   font-family: "Circular Std Medium";
   font-style: normal;
   margin: 0px;
   padding-bottom: 10px;
-  display: flex;
-  align-items: center;
 }
 .foot li {
   list-style: none;
@@ -313,7 +320,10 @@ nav .nav-link {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   font-family: "Circular Std Medium";
   font-style: normal;
+}
+.foot hr {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

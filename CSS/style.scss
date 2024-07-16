@@ -299,17 +299,23 @@ padding-bottom: 80px;
 }
 
 .foot{
-  padding: 5px 0px;
+  padding: 50px 0px;
+  background-color: #342205;
+  box-shadow: 0px 1px 25px rgba(25, 119, 204, 0.1);
+  .img-box{
+    background-color: #fff;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px;
+  }
   p{
     font-size: 16px;
     font-weight: 400;
-    color: #000;
+    color: #fff !important;
     font-family: "Circular Std Medium"; 
     font-style: normal;
     margin: 0px;
     padding-bottom: 10px;
-    display: flex;
-    align-items: center;
   }
   li{
     list-style: none;
@@ -318,8 +324,11 @@ padding-bottom: 80px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-    color: #000;
+    color: #fff;
     font-family: "Circular Std Medium"; 
     font-style: normal;
+  }
+  hr{
+    color: #fff;
   }
 }
