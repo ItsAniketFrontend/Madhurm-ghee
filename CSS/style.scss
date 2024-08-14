@@ -9,331 +9,307 @@
   src: url(../Fonts/circular-std-medium-500.ttf);
 }
 
-body{
-  background: #FCF4C6 !important;
+.top-nav{
+  p{
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    color: #28996d;
+    line-height: 74px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
 nav{
-  background-color:#ffff !important;
+  background-color:#fff !important;
   .nav-link{
     font-style: normal;
-    font-size: 18px;
-    font-weight: 400;
-    color: #000;
-    font-family: "Circular Std Medium";
+    font-size: 15px;
+    font-weight: 600;
+    color: #28996d;
+    line-height: 74px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
   }
 }
 
 .about{
-  overflow: hidden;
-  padding: 90px 0px;
-  h2{
-    font-family: "Circular Std Medium";
-    font-size: 42px;
+  padding: 80px 0px;
+  h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 69px;
     color: #000;
-    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 18px;
   }
   p{
-    font-family: "Circular Std Medium";
-    line-height: 34px;
-    font-size: 16px;
-    font-style: normal;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    font-style: normal;
     color: #000;
-  }
-  .vector{
-    width: 300px;
-
+    text-transform: uppercase;
   }
 }
 
 .products{
   padding-bottom: 80px;
   h2{
-    font-family: "Circular Std Medium";
-    line-height: 69px;
-    font-size: 42px;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 600;
+    font-size: 33px;
     font-style: normal;
-    font-weight: 700;
-    color: #000;
-  }
-  .product{
-    width: 500px;
-    height: 500px;
-    object-fit: contain;
-    @media (max-width:991px) {
-      width: 300px;
-      height: 300px;
-      object-fit: cover;
-    }
-  }
-  .vector{
-    width: 300px;
-
+    line-height: 33px;
+    color: rgb(40, 153, 109);
+    text-transform: uppercase;
   }
   h4{
-    font-family: "Circular Std Medium";
-    line-height: 69px;
-    font-size: 26px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
     font-style: normal;
-    font-weight: 400;
-    color: #000;
-  }
-  .box{
-    padding: 20px 0px;
-    // box-shadow: rgba(90, 90, 95, 0.2) 0px 7px 29px 0px;
-  }
-}
-
-.brand{
-  h2{
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 69px;
-    color: #000;
-    font-family: "Circular Std Medium";
+    font-family: Roboto;
+    color: rgb(51, 51, 51);
   }
   .vector{
     width: 300px;
   }
-  h3{
-    font-family: "Circular Std Medium";
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 23px;
-    background-color: #342205;
-   display: inline-block;
-    padding: 18px;
-    color: #fff;
-  }
-  h6{
-    font-size: 16px;
-    line-height: 34px;
-    font-style: normal;
-    font-weight: 400;
+  button{
+    background: transparent;
+    padding: 5px 20px;
+    border: 2px solid #28996d;
     color: #000;
-    font-family: "Circular Std Medium";
-  }
-  p{
-    margin: 0px;
-    padding: 20px 0px;
-     font-size: 16px;
-     line-height: 34px;
-     font-style: normal;
-     font-weight: 400;
-     color: #000;
-     font-family: "Circular Std Medium"; 
-  }
-}
-
-.ambassdor{
-  padding: 80px 0px;
-  .vector{
-    width: 300px;
-    
-  }
-  h1{
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 69px;
-    color: #000;
-    font-family: "Circular Std Medium"; 
-  }
-  .box{
-    background-color: #B17840;
-    padding: 20px;
-  }
-  img{
-    width: 100%;
-  }
-  h3{
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0px;
-    line-height: 69px;
-    color: #fff;
-    font-family: "Circular Std Medium"; 
-  }
-  p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 34px;
-    color: #fff;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
+    a{
+      text-decoration: none;
+      color: #000;
+      line-height: 21px;
+      font-weight: 500;
+      font-style: normal;
+      font-family: "Roboto Slab", sans-serif;
+      font-size: 14px;
+    }
   }
 }
 
 .bg{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(../Images/back-bg.jpg);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    color: #fff;
+  }
   button{
-    background: #C2531B;
+    background-color: #28996d;
     padding: 5px 20px;
     border: none;
     a{
       color: #fff;
-      font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
-    text-decoration: none;
-    }
-  }
-  p{
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 34px;
-    color: #fff;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
-    padding-bottom: 0px;
-  }
-}
-
-.reviews{
-  padding: 80px 0px;
-  h2{
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 34px;
-    color: #000;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
-    padding-bottom: 30px;
-  }
-  .box{
-    background-color: #F6F0E0;
-    padding: 20px;
-    height: 100%;
-    p{
-      font-size: 19px;
+      text-decoration: none;
+      font-family: Montserrat;
       font-weight: 400;
-      line-height: 34px;
-      color: #000;
-      font-family: "Circular Std Medium"; 
-      font-style: normal;
-      margin: 0px;
-      padding-bottom: 20px;
     }
-    h5{
-      font-size: 28px;
-      font-weight: 600;
-      line-height: 34px;
-      color: #000;
-      font-family: "Circular Std Medium"; 
-      font-style: normal;
-      margin: 0px;
-    }
-  }
-}
-
-.why-us{
-  padding-bottom: 80px;
-  h1{
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 34px;
-    color: #000;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
-    padding-bottom: 30px;
-  }
-  h5{
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 34px;
-    color: #000;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
-  }
-  p{
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    color: #000;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
   }
 }
 
 .gallery{
-  padding: 50px 0px;
-  p{
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    color: #000;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-    margin: 0px;
-  }
+  padding: 80px 0px;
   h2{
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 34px;
-    color: #000;
-    font-family: "Circular Std Medium"; 
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 600;
+    line-height: 33px;
+    font-size: 33px;
+    color: #28996d;
+    text-transform: uppercase;
     font-style: normal;
-    margin: 0px;
-    padding-bottom: 30px;
   }
-  img{
-    mix-blend-mode: multiply;
+  p{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: #000;
   }
 }
 
-.foot{
-  padding: 50px 0px;
-  background-color: #342205;
-  box-shadow: 0px 1px 25px rgba(25, 119, 204, 0.1);
-  .img-box{
-    background-color: #fff;
-    border-radius: 50px;
-    width: fit-content;
-    padding: 10px;
+.testimonials{
+  padding-bottom: 80px;
+  p{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: #000;
+  }
+  h4{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 600;
+    line-height: 33px;
+    font-size: 22px;
+    color: #000;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+}
+
+.about-us{
+  padding: 80px 0px;
+  h2{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 600;
+    line-height: 33px;
+    font-size: 42px;
+    color: #28996d;
+    font-style: normal;
   }
   p{
-    font-size: 16px;
     font-weight: 400;
-    color: #fff !important;
-    font-family: "Circular Std Medium"; 
+    line-height: 25px;
+    font-size: 14px;
     font-style: normal;
-    margin: 0px;
-    padding-bottom: 10px;
+    font-family: Montserrat;
+    color: #000;
+  }
+}
+
+.why-choose-us{
+  padding-bottom: 80px;
+  h6{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 600;
+    line-height: 33px;
+    font-size: 16px;
+    color: #28996d;
+    font-style: normal;
+  }
+  h1{
+    font-weight: 400;
+    line-height: normal;
+    font-size: 42px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: #000;
+  }
+  p{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: #000;
+  }
+}
+
+.philosophy{
+  p{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: #000;
+  }
+  h3{
+    font-weight: 400;
+    line-height: normal;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Montserrat;
+   background-color: #342205;
+   color: #fff;
+   width: fit-content;
+   padding: 20px;
+  }
+}
+
+.contact-details{
+  p{
+    font-weight: 400;
+    line-height: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: #28996d;
+  }
+  .form-box{
+    padding: 20px;
+    background-color: #F2FAF5;
+    h3{
+      font-weight: 400;
+      line-height: normal;
+      font-size: 32px;
+      font-style: normal;
+      font-family: Montserrat;
+      color: #000;
+    }
+  }
+  input{
+    width: 100%;
+    padding: 10px;
+  }
+  textarea{
+    width: 100%;
+    padding: 10px;
+  }
+  label{
+    font-weight: 400;
+    line-height: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+  }
+  button{
+    background-color: #28996d;
+    padding: 5px 20px;
+    border: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
+
+footer{
+  background-color: #F2FAF5;
+  padding: 40px 0px;
+  p{
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: #000;
   }
   li{
     list-style: none;
-  }
-  a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    font-family: "Circular Std Medium"; 
-    font-style: normal;
-  }
-  hr{
-    color: #fff;
+    a{
+      text-decoration: none;
+      font-family: "Roboto Slab", sans-serif;
+      font-weight: 600;
+      line-height: 18px;
+      font-size: 17px;
+      color: #28996d;
+      text-transform: uppercase;
+      font-style: normal;
+    }
   }
 }
